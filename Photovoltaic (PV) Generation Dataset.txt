@@ -1,0 +1,27 @@
+his dataset contains hourly photovoltaic (PV) generation data and associated input variables collected from an experimental rooftop PV system.
+
+The dataset includes temporal, meteorological, and orientation-related features used for short-term PV power forecasting. Measurements were recorded at an hourly resolution over approximately one year.
+
+The dataset consists of the following variables:
+
+- Day: Day of the year
+- Cosine of Day: Cyclical representation of the day of the year
+- Hour: Hour of the day
+- Cosine of Hour: Cyclical representation of the hour of the day
+- Air Temperature (°C)
+- Dew Point (°C)
+- Wind Speed (m/s)
+- Air Pressure (hPa)
+- Weather Condition: Categorical weather description
+- Solar Radiation (W/m²)
+
+For each PV panel (PV-1 to PV-5), the following variables are provided:
+- Cosine value of the solar incidence angle
+- Measured PV power output (W or Wh)
+
+Additionally:
+- Total PV Power: Aggregated power output of all panels
+
+The PV system consists of multiple panels with different tilt and azimuth configurations, enabling the analysis of orientation-aware PV forecasting under identical environmental conditions.
+
+This repository includes raw and processed data along with variable descriptions to support further research in photovoltaic forecasting and energy systems.
